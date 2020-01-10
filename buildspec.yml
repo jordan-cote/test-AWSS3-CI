@@ -12,7 +12,7 @@ phases:
             - ls -a
 artifacts:
 # IMPORTANT - Please verify your build output directory
-    baseDirectory:
+    base-directory:
         dist
     files:
         - '**/*'
