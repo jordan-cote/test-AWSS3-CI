@@ -1,21 +1,21 @@
 version: 0.2
-  phases:
+phases:
     install:
         runtime-versions:
             nodejs: 10
     preBuild:
-      commands:
-        - npm install
+        commands:
+            - npm install
     build:
-      commands:
-        - npm run build 
-        - ls -a
-  artifacts:
-    # IMPORTANT - Please verify your build output directory
+        commands:
+            - npm run build 
+            - ls -a
+artifacts:
+# IMPORTANT - Please verify your build output directory
     baseDirectory:
         dist
     files:
-      - '**/*'
-  cache:
+        - '**/*'
+cache:
     paths:
-      - node_modules/**/*
+        - node_modules/**/*
