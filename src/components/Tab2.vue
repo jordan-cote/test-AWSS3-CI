@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Album</h1>
-    <div>GLO-3102 Album page</div>
+    <h1>Tab2</h1>
+    <div>Tab2 page</div>
   </div>
 </template>
 
